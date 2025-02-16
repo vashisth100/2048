@@ -1,0 +1,214 @@
+/* Import a cool futuristic font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Body with a crazy animated background */
+body {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background: linear-gradient(-45deg, #1e1e2e, #3a3a55, #181830, #292945);
+    background-size: 400% 400%;
+    animation: animateBg 10s ease infinite;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Crazy background animation */
+@keyframes animateBg {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Game Title */
+h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00ffc8;
+    text-shadow: 0 0 10px #00ffc8, 0 0 20px #00ffc8, 0 0 40px #00ffc8;
+}
+
+/* Scoreboard */
+#scoreboard {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.7);
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+/* Crazy scoreboard glitch effect */
+#scoreboard:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 255, 200, 1);
+}
+
+/* Game Board */
+#board {
+    width: 420px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 255, 200, 0.3);
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+}
+
+/* Tile design with neon glow */
+.tile {
+    width: 95px;
+    height: 95px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+/* Glowing effect for tiles */
+.tile {
+    animation: pop 0.3s ease-in-out;
+}
+
+@keyframes pop {
+    0% { transform: scale(0.7); opacity: 0.3; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Cyberpunk Tile Colors */
+.x2 { background: #00ffc8; color: #111; text-shadow: 0 0 10px #00ffc8; }
+.x4 { background: #00ff9d; color: #111; text-shadow: 0 0 10px #00ff9d; }
+.x8 { background: #ffdd57; color: #111; text-shadow: 0 0 10px #ffdd57; }
+.x16 { background: #ff914d; color: white; text-shadow: 0 0 10px #ff914d; }
+.x32 { background: #ff3d3d; color: white; text-shadow: 0 0 15px #ff3d3d; }
+.x64 { background: #ff1e1e; color: white; text-shadow: 0 0 15px #ff1e1e; }
+.x128 { background: #ff007f; color: white; text-shadow: 0 0 20px #ff007f; }
+.x256 { background: #d400ff; color: white; text-shadow: 0 0 20px #d400ff; }
+.x512 { background: #8000ff; color: white; text-shadow: 0 0 25px #8000ff; }
+.x1024 { background: #003cff; color: white; text-shadow: 0 0 30px #003cff; }
+.x2048 { background: #00a3ff; color: white; text-shadow: 0 0 30px #00a3ff; }
+.x4096 { background: #00ffff; color: white; text-shadow: 0 0 35px #00ffff; }
+.x8192 { background: #ffffff; color: black; text-shadow: 0 0 40px #ffffff; }
+/* Import a cool futuristic font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Body with a crazy animated background */
+body {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background: linear-gradient(-45deg, #1e1e2e, #3a3a55, #181830, #292945);
+    background-size: 400% 400%;
+    animation: animateBg 10s ease infinite;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Crazy background animation */
+@keyframes animateBg {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Game Title */
+h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00ffc8;
+    text-shadow: 0 0 10px #00ffc8, 0 0 20px #00ffc8, 0 0 40px #00ffc8;
+}
+
+/* Scoreboard */
+#scoreboard {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.7);
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+/* Crazy scoreboard glitch effect */
+#scoreboard:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 255, 200, 1);
+}
+
+/* Game Board */
+#board {
+    width: 420px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 255, 200, 0.3);
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+}
+
+/* Tile design with neon glow */
+.tile {
+    width: 95px;
+    height: 95px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+/* Glowing effect for tiles */
+.tile {
+    animation: pop 0.3s ease-in-out;
+}
+
+@keyframes pop {
+    0% { transform: scale(0.7); opacity: 0.3; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Cyberpunk Tile Colors */
+.x2 { background: #00ffc8; color: #111; text-shadow: 0 0 10px #00ffc8; }
+.x4 { background: #00ff9d; color: #111; text-shadow: 0 0 10px #00ff9d; }
+.x8 { background: #ffdd57; color: #111; text-shadow: 0 0 10px #ffdd57; }
+.x16 { background: #ff914d; color: white; text-shadow: 0 0 10px #ff914d; }
+.x32 { background: #ff3d3d; color: white; text-shadow: 0 0 15px #ff3d3d; }
+.x64 { background: #ff1e1e; color: white; text-shadow: 0 0 15px #ff1e1e; }
+.x128 { background: #ff007f; color: white; text-shadow: 0 0 20px #ff007f; }
+.x256 { background: #d400ff; color: white; text-shadow: 0 0 20px #d400ff; }
+.x512 { background: #8000ff; color: white; text-shadow: 0 0 25px #8000ff; }
+.x1024 { background: #003cff; color: white; text-shadow: 0 0 30px #003cff; }
+.x2048 { background: #00a3ff; color: white; text-shadow: 0 0 30px #00a3ff; }
+.x4096 { background: #00ffff; color: white; text-shadow: 0 0 35px #00ffff; }
+.x8192 { background: #ffffff; color: black; text-shadow: 0 0 40px #ffffff; }
